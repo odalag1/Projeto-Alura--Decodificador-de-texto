@@ -1,0 +1,124 @@
+* {
+    background:#E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.Logoalura{
+    margin-left: 10px;
+    padding-top: 15px;
+    width: 2%;
+
+}
+main{
+    display: flex;
+     margin-bottom: 50px;
+     margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #0a3871;}
+.text-area:focus{
+    outline: none;
+}
+.mensagem{
+    background: white;
+    background-image: url(imagens/boneco.png.svg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}   
+.mensagem:focus{
+    outline: none;
+}
+.botao{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 50;
+    gap: 24px;
+}
+.btn-criptografar:hover{
+    box-shadow: 0px 0px 8px 2px #0A3871;
+    inset: 0px 0px 8px 2px #0A3871 ;
+    transform: scale(1.05);
+    
+}
+.btn-desicripitografar:hover{
+    box-shadow: 0px 0px 8px 2px black;
+    inset: 0px 0px 8px 2px black;
+    transform: scale(1.05);
+}
+.btn-criptografar{
+    width:328px;
+    height: 67px;
+    border-radius:24px;
+    gap: 8px;        
+    background-color: #0A3871;
+    border: none;
+    color: #FFFFFF;
+    line-height: 19.36px;
+    position: relative;
+    top: 24px;    
+    transition: 0.3s;
+    font-size: 16px;
+    
+    
+}
+
+.btn-desicripitografar{
+  background: #D8DFE8 ;  
+    width:328px;
+    height: 67px;
+    border-radius:24px;
+    gap: 8px;  
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    position: relative;
+    top: 24px;            
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-copiar:hover{
+    box-shadow: 0px 0px 8px 2px black;
+    inset: 0px 0px 8px 2px black;
+    transform: scale(1.05);
+}
+.btn-copiar{
+    border: 1px solid #0A3871;
+    position: relative;
+    width: 300px;
+    border-radius: 24px;
+    height: 67px;
+    font-size: 16px;
+    color: #0A3871;
+    top: 427px;
+    left: 125px;
+    display: none; 
+    transition: 0.3s;
+}   
+.informacao h6 {
+font-size: 11.5px;
+
+font-weight: 400;
+color: #495057;
+
+height: 50px;
+padding-top: 75px;
+padding-left: 30px;
+opacity: 80%;
+}
+.informacao{
+    height: 60px;
+}       
